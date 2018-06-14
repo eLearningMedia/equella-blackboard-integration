@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="boorah" name="com.tle.blackboard.common.content.LegacyItemUtilTest" skipped="0" tests="18" time="0.162" timestamp="2017-04-27T01:13:23">
+<testsuite errors="0" failures="0" hostname="boorah" name="es.elearningmedia.equella.common.content.LegacyItemUtilTest" skipped="0" tests="18" time="0.162" timestamp="2017-04-27T01:13:23">
   <properties>
     <property name="file.encoding.pkg" value="sun.io" />
     <property name="bbstaging" value="/home/jolz/equella/Equella/Source/Integration/Blackboard/bb91/staging/bblock/public_html" />
@@ -42,7 +42,7 @@
     <property name="ant.project.default-target" value="make" />
     <property name="build" value="/home/jolz/equella/Equella/Source/Integration/Blackboard/bb91/public_html/WEB-INF/classes" />
     <property name="lib" value="/home/jolz/equella/Equella/Source/Integration/Blackboard/bb91/public_html/WEB-INF/lib" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.tle.blackboard.common.content.LegacyItemUtilTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/jolz/equella/Equella/Source/Integration/Blackboard/bb91/test.reports/TEST-com.tle.blackboard.common.content.LegacyItemUtilTest.xml crashfile=/home/jolz/equella/Equella/Source/Integration/Blackboard/bb91/junitvmwatcher589990655429259020.properties propsfile=/home/jolz/equella/Equella/Source/Integration/Blackboard/bb91/junit3738065759255909395.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner es.elearningmedia.equella.common.content.LegacyItemUtilTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/jolz/equella/Equella/Source/Integration/Blackboard/bb91/test.reports/TEST-es.elearningmedia.equella.common.content.LegacyItemUtilTest.xml crashfile=/home/jolz/equella/Equella/Source/Integration/Blackboard/bb91/junitvmwatcher589990655429259020.properties propsfile=/home/jolz/equella/Equella/Source/Integration/Blackboard/bb91/junit3738065759255909395.properties" />
     <property name="ant.file.type.CustomTasks" value="file" />
     <property name="EQUELLA Server.base" value="/home/jolz/equella/Equella/Source/Server/equellaserver" />
     <property name="ant.file.com.tle.integration.blackboard" value="/home/jolz/equella/Equella/Source/Plugins/Integrations/com.tle.integration.blackboard/build.xml" />
@@ -161,24 +161,24 @@
     <property name="javac.verbose" value="no" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testCreatePropBagWithAmpersands" time="0.073" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testCreatePropBagWithXmlEscapedCharacters" time="0.013" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testCreatePropBagWithoutAmpersands" time="0.001" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testScrubLegacyPageSoloSpace" time="0.0" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testScrubLegacyPageSoloEncodedPlus" time="0.0" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testScrubLegacyPageSoloPlus" time="0.0" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testScrubLegacyPageSoloSlash" time="0.0" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testScrubLegacyPageSoloPreEncodedSlash" time="0.0" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testScrubLegacyPageOnlyFilename" time="0.009" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testScrubLegacyPageFolderAndFilename" time="0.0" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testScrubLegacyPageOnlyFolder" time="0.0" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testScrubLegacyPageNullPage" time="0.0" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testScrubLegacyPageDotSlashPage" time="0.0" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testFixUnescapedAmpersandsSingle" time="0.0" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testFixUnescapedAmpersandsXml" time="0.0" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testFixUnescapedAmpersandsEmpty" time="0.0" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testFixUnescapedAmpersandsMultiples" time="0.001" />
-  <testcase classname="com.tle.blackboard.common.content.LegacyItemUtilTest" name="testFixUnescapedAmpersandsGeneral" time="0.0" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testCreatePropBagWithAmpersands" time="0.073" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testCreatePropBagWithXmlEscapedCharacters" time="0.013" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testCreatePropBagWithoutAmpersands" time="0.001" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testScrubLegacyPageSoloSpace" time="0.0" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testScrubLegacyPageSoloEncodedPlus" time="0.0" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testScrubLegacyPageSoloPlus" time="0.0" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testScrubLegacyPageSoloSlash" time="0.0" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testScrubLegacyPageSoloPreEncodedSlash" time="0.0" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testScrubLegacyPageOnlyFilename" time="0.009" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testScrubLegacyPageFolderAndFilename" time="0.0" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testScrubLegacyPageOnlyFolder" time="0.0" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testScrubLegacyPageNullPage" time="0.0" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testScrubLegacyPageDotSlashPage" time="0.0" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testFixUnescapedAmpersandsSingle" time="0.0" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testFixUnescapedAmpersandsXml" time="0.0" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testFixUnescapedAmpersandsEmpty" time="0.0" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testFixUnescapedAmpersandsMultiples" time="0.001" />
+  <testcase classname="es.elearningmedia.equella.common.content.LegacyItemUtilTest" name="testFixUnescapedAmpersandsGeneral" time="0.0" />
   <system-out><![CDATA[URI parser output [I%2Fam%20a%20spacey%20filename%20!#$&'%()*+,:;=?@[].jpg]
 ]]></system-out>
   <system-err><![CDATA[[Fatal Error] :1:188: The entity name must immediately follow the '&' in the entity reference.

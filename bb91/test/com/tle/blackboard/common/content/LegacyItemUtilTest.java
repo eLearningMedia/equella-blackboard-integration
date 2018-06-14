@@ -1,13 +1,13 @@
 /*
  * Created on Dec 21, 2004
  */
-package com.tle.blackboard.common.content;
+package es.elearningmedia.equella.common.content;
 
 import java.io.UnsupportedEncodingException;
 
 import org.apache.cxf.common.util.URIParserUtil;
 
-import com.tle.blackboard.common.propbag.PropBagMin;
+import es.elearningmedia.equella.common.propbag.PropBagMin;
 
 import junit.framework.TestCase;
 
